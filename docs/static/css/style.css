@@ -39,7 +39,7 @@ i,em{font-style: initial;}
 .headerTop .rightDiv .shareDiv a{margin-right: 20px;height: 42px;transition: all .6s;}
 .headerTop .rightDiv .shareDiv a:hover{transform: rotate(30deg);}
 .headerTop .rightDiv .languageDiv{margin-left: 60px;position: relative;cursor: pointer;}
-.headerTop .rightDiv .languageDiv .detailDiv{height: 42px; }
+.headerTop .rightDiv .languageDiv .detailDiv{height: 42px; color: #fff;}
 .headerTop .rightDiv .languageDiv .detailDiv select{display: block;margin: 0 20px 0 9px; border: none; background-color: transparent; color: #fff;}
 
 .headerTop .rightDiv .languageDiv .langList {position: absolute;right: 0;width: 100%;background: #fff;color: #333;top: 100%;z-index: 99999;box-shadow: 0px 0px 10px rgba(0,0,0,.1);opacity: 0;visibility: hidden;transform: translateY(10px);transition: all .6s;}
@@ -49,8 +49,9 @@ i,em{font-style: initial;}
 
 /**导航菜单**/
 header{position: fixed;top: 42px;left: 0;width: 100%;z-index:100;color: #333333;text-align: center;height: 90px;transition: all .5s;background: #fff;box-shadow: 0px 1px 1px #e5e5e5;}
-header .logo a{height: 90px;position: relative;z-index: 100;display:flex;justify-content:center;align-items:center;/*width: 16.35vw;*/}
-header .logo img{max-height: 100%;}
+header .logo a{height: 68px;position: relative;z-index: 100;display:flex;justify-content:center;align-items:center;/*width: 16.35vw;*/}
+header .logo img{max-height: 100%; margin-right: 20px;}
+header .logo p {font-family: 'Playfair Display', serif; font-size: 20px; color: #1ab8d5;}
 header .rightDiv{float: right;}
 header .rightDiv .menu{}
 header .rightDiv .menu>ul{display: inline-block!important;}
