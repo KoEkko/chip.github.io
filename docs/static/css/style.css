@@ -40,8 +40,10 @@ i,em{font-style: initial;}
 .headerTop .rightDiv .shareDiv a:hover{transform: rotate(30deg);}
 .headerTop .rightDiv .languageDiv{margin-left: 60px;position: relative;cursor: pointer;}
 .headerTop .rightDiv .languageDiv .detailDiv{height: 42px; color: #fff;}
-.headerTop .rightDiv .languageDiv .detailDiv select{display: block;margin: 0 20px 0 9px; border: none; background-color: transparent; color: #fff;}
-
+.headerTop .rightDiv .languageDiv .detailDiv option select{display: block;margin: 0 20px 0 9px; border: none; background-color: transparent; color: #fff;}
+.headerTop .rightDiv .languageDiv .detailDiv option {
+	color: #000;
+}
 .headerTop .rightDiv .languageDiv .langList {position: absolute;right: 0;width: 100%;background: #fff;color: #333;top: 100%;z-index: 99999;box-shadow: 0px 0px 10px rgba(0,0,0,.1);opacity: 0;visibility: hidden;transform: translateY(10px);transition: all .6s;}
 .headerTop .rightDiv .languageDiv:hover .langList{opacity: 1;visibility: visible;transform: translateY(0);}
 .headerTop .rightDiv .languageDiv .langList a{display: block;color: #333;line-height: 40px;font-size: 14px;}
