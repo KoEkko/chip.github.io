@@ -56,13 +56,13 @@
   }
 
   /**
-   * 设置语言类型： 默认为中文
+   * 设置语言类型： 默认为英文
    */
-  var i18nLanguage = "zh-CN";
+  var i18nLanguage = "en";
   /*
   设置一下网站支持的语言种类
    */
-  var webLanguage = ['zh-CN', 'idn', 'en'];
+  var webLanguage = ['zh-CN', 'en'];
 
   /**
    * 执行页面i18n方法
